@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9; /* Light background */
+  color: #333; /* Dark text color for contrast */
+  margin: 0;
+  padding: 0;
+  margin-top: 100px;
+
+  padding-bottom: 160px;
+  padding-left: 160px; /* Add space on the left side */
+  padding-right: 160px; /* Add space on the right side */
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.ArtFoundationdiv2 {
+  background-color: #ffffff; /* Light blue */
+
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 70px; 
+  color: black !important; /* Force text color to black */
+  width: 100%; /* Ensures full width */
+  max-width: 900px; /* Restricts text width */
+  box-sizing: border-box;
+  padding-left: 370px;
+  padding-right: 0px ;
+  text-align: justify; /* Justifies text for equal alignment */
+}
+ 
+
+
+
+.ArtFoundationdiv2 h2 {
+  color: rgb(48, 48, 48);
+  margin: 0;
+  display: inline-block; /* Ensures the h2 is only as wide as its content */
+  padding-bottom: 10px; /* Increase the space between text and underline */
+  font-weight: 400;
+}
+
+.ArtFoundationdiv2 h2::after {
+  content: ""; /* Adds an empty pseudo-element */
+  display: block; /* Makes it behave like a block element */
+  width: 40%; /* Adjust the width to make the underline smaller */
+  margin: 0 auto; /* Centers the underline */
+  border-bottom: 1px solid rgb(150, 148, 148); /* Underline */
+  margin-top: 12px; /* Adjust this value to control the gap between text and underline */
+}
+
+
+.museum-list2 {
+  margin-top: 20px;
+}
+
+.museum-list2 p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.museum-list2 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.museum-list2 li {
+  background-color: #ffffff; /* White background for list items */
+  margin: 10px 0;
+  padding: 15px;
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.museum-list2 li:hover {
+  background-color: #e1f5fe; /* Light blue hover effect */
+  transform: scale(1.02); /* Slight zoom effect on hover */
+  border-color: #4caf50; /* Green border on hover */
+}
+
+.museum-list2 strong {
+  color: #333;
+  font-size: 18px;
+  text-align: center;
+}
+
+.museum-list2 li p {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.image-container {
+  height: 300px; /* Set the height */
+  width: 500px;  /* Set the width */
+}
+
+.image-container img {
+  height: 100%;  /* Makes the image fit the container */
+  width: 100%;   /* Makes the image fit the container */
+  object-fit: cover; /* Ensures the image is properly cropped */
+  border: 5px solid rgb(204, 203, 203);
+}
+
+
+.art-org-text {
+  margin-top: 10px;
+  width: 100%; /* Ensures full width */
+  max-width: 900px; /* Restricts text width */
+  box-sizing: border-box;
+  padding-left: 240px;
+  padding-right: 0px ;
+  text-align: justify; /* Justifies text for equal alignment */
+}

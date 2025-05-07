@@ -1,0 +1,50 @@
+.texts {
+    text-align: left;
+}
+
+.header-spacing {
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+p,
+li {
+    font-size: larger;
+}
+
+.custom-list {
+    list-style-type: disc !important;
+    /* Force bullet points */
+    padding-left: 20px !important;
+    /* Ensure indentation */
+}
+
+.custom-list li {
+    display: list-item !important;
+    /* Ensure vertical alignment */
+}
+
+.rounded {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.banner-text {
+    font-size: 60px;
+    margin-top: 70px;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+.tagline {
+    color:#A9A9A9;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.font-bold{
+    font-weight: bold;
+    color: gray;
+}
